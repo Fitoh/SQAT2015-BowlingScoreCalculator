@@ -15,6 +15,11 @@ public class Frame {
 		score = firstThrow + secondThrow;
 		return score;
 	}
+	
+	//the score of a single frame
+	public int firstThrowScore(){
+		return firstThrow;
+	}
 
 	//returns whether the frame is a strike or not
 	public boolean isStrike(){

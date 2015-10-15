@@ -206,3 +206,5 @@ RefactoringAction 1444903907795 Frame.java RENAME score()/2=>int firstT() METHOD
 RefactoringAction 1444903909810 Frame.java RENAME firstT()=>int firstThrow() METHOD
 RefactoringAction 1444903911323 Frame.java RENAME firstThrow()=>int firstThrowScore() METHOD
 EditAction 1444903934850 BowlingGame.java 984 5 4 0
+CompilationAction 1444903935096 BowlingGame.java
+EditAction 1444903940899 Frame.java 1018 7 11 0

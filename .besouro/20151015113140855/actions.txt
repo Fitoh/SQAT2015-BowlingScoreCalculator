@@ -129,3 +129,9 @@ RefactoringAction 1444900907610 TestBowlingScoreCalculator.java RENAME testScore
 RefactoringAction 1444900933353 BowlingGame.java ADD void printFrames() METHOD
 EditAction 1444900950102 BowlingGame.java 659 6 4 0
 EditAction 1444900966696 TestBowlingScoreCalculator.java 1298 4 25 1
+UnitTestCaseAction 1444900967762 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444900967762 TestBowlingScoreCalculator OK
+UnitTestCaseAction 1444900974464 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444900974465 TestBowlingScoreCalculator OK
+RefactoringAction 1444900983912 BowlingGame.java REMOVE printFrames() METHOD
+EditAction 1444900984671 BowlingGame.java 583 5 3 0

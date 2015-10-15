@@ -105,3 +105,4 @@ EditAction 1444900435199 BowlingGame.java 583 5 3 0
 RefactoringAction 1444900586733 TestBowlingScoreCalculator.java ADD void testDefineGame()/2 METHOD
 RefactoringAction 1444900593775 TestBowlingScoreCalculator.java REMOVE testDefineGame()/2 METHOD
 EditAction 1444900669974 BowlingGame.java 614 5 4 0
+EditAction 1444900674007 TestBowlingScoreCalculator.java 1254 4 24 1

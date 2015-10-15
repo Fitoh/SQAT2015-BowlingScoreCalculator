@@ -70,3 +70,14 @@ EditAction 1444899702608 TestBowlingScoreCalculator.java 394 2 3 1
 UnitTestCaseAction 1444899704546 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444899704546 TestBowlingScoreCalculator OK
 EditAction 1444899714863 TestBowlingScoreCalculator.java 395 2 3 1
+UnitTestCaseAction 1444899715165 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444899715165 TestBowlingScoreCalculator FAIL
+RefactoringAction 1444899779359 TestBowlingScoreCalculator.java ADD void testScore()/2 METHOD
+RefactoringAction 1444899782874 TestBowlingScoreCalculator.java RENAME testScore()/2=>void test() METHOD
+RefactoringAction 1444899786390 TestBowlingScoreCalculator.java RENAME test()=>void testG() METHOD
+RefactoringAction 1444899789904 TestBowlingScoreCalculator.java RENAME testG()=>void testDefineGame() METHOD
+RefactoringAction 1444899841356 TestBowlingScoreCalculator.java ADD BowlingGame g FIELD
+RefactoringAction 1444899847884 TestBowlingScoreCalculator.java RENAME g=>BowlingGame game1 FIELD
+RefactoringAction 1444899855894 TestBowlingScoreCalculator.java ADD void createFrame()/2 METHOD
+RefactoringAction 1444899864934 TestBowlingScoreCalculator.java RENAME createFrame()/2=>void createGame() METHOD
+EditAction 1444899890557 TestBowlingScoreCalculator.java 601 4 5 1

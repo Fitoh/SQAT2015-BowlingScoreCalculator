@@ -37,7 +37,7 @@ public class TestBowlingScoreCalculator {
 		frame3 = new Frame(7,2);
 		frame4 = new Frame(3,6);
 		frame5 = new Frame(4,4);
-		frame6 = new Frame(5,3);
+		frame6 = new Frame(10,0);
 		frame7 = new Frame(3,3);
 		frame8 = new Frame(4,5);
 		frame9 = new Frame(8,1);

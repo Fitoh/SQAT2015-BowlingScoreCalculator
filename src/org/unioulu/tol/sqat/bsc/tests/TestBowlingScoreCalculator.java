@@ -15,7 +15,10 @@ public class TestBowlingScoreCalculator {
 	
 	@Test
 	public void testScore() {
+		// act
 		createFrame();
+		
+		// assert
 		assertEquals(6,frame1.score());
 	}
 

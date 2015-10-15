@@ -176,3 +176,8 @@ RefactoringAction 1444902895546 Frame.java ADD boolean striked FIELD
 RefactoringAction 1444903014607 Frame.java REMOVE striked FIELD
 EditAction 1444903017163 Frame.java 866 6 9 0
 EditAction 1444903115036 BowlingGame.java 868 5 4 0
+RefactoringAction 1444903139602 TestBowlingScoreCalculator.java ADD void createFrames()/2 METHOD
+RefactoringAction 1444903149161 TestBowlingScoreCalculator.java RENAME createFrames()/2=>void createFramesWithStrike() METHOD
+RefactoringAction 1444903179732 TestBowlingScoreCalculator.java ADD void testScoreOfSingleGame()/2 METHOD
+RefactoringAction 1444903191779 TestBowlingScoreCalculator.java RENAME testScoreOfSingleGame()/2=>void testScoreOfSingleGameWithStrike() METHOD
+EditAction 1444903208280 TestBowlingScoreCalculator.java 1846 6 39 3

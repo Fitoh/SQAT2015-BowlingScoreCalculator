@@ -19,7 +19,7 @@ public class TestBowlingScoreCalculator {
 		createFrame();
 		
 		// assert
-		assertEquals(9,frame1.score());
+		assertEquals(10,frame1.score());
 	}
 
 }

@@ -55,6 +55,18 @@ public class TestBowlingScoreCalculator {
 		frame9 = new Frame(8,1);
 		frame10 = new Frame(2,6);
 	}
+	public void createFramesWithStrikeAndSpare(){
+		frame1 = new Frame(10,0);
+		frame2 = new Frame(4,6);
+		frame3 = new Frame(7,2);
+		frame4 = new Frame(3,6);
+		frame5 = new Frame(4,4);
+		frame6 = new Frame(5,3);
+		frame7 = new Frame(3,3);
+		frame8 = new Frame(4,5);
+		frame9 = new Frame(8,1);
+		frame10 = new Frame(2,6);
+	}
 	
 	public void createGame(){
 		game1 = new BowlingGame();
@@ -107,6 +119,16 @@ public class TestBowlingScoreCalculator {
 		
 		// assert should be 88
 		assertEquals(89,game1.score());
+	}
+	
+	@Test
+	public void testScoreOfSingleGameWithStrikeAndSpare() {
+		// act
+		createFramesWithStrikeAndSpare();
+		createGame();
+		
+		// assert should be 103
+		assertEquals(102,game1.score());
 	}
 	
 

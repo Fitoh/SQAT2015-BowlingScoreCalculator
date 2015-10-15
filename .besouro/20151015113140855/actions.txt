@@ -209,3 +209,11 @@ EditAction 1444903934850 BowlingGame.java 984 5 4 0
 CompilationAction 1444903935096 BowlingGame.java
 EditAction 1444903940899 Frame.java 1018 7 11 0
 EditAction 1444903964168 Frame.java 1030 7 11 0
+UnitTestCaseAction 1444903986942 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444903986943 TestBowlingScoreCalculator FAIL
+RefactoringAction 1444904087070 TestBowlingScoreCalculator.java ADD void createFramesWithSpare()/2 METHOD
+RefactoringAction 1444904091594 TestBowlingScoreCalculator.java RENAME createFramesWithSpare()/2=>void createFramesWithStrikeSpare() METHOD
+RefactoringAction 1444904093114 TestBowlingScoreCalculator.java RENAME createFramesWithStrikeSpare()=>void createFramesWithStrikeAndSpare() METHOD
+RefactoringAction 1444904120709 TestBowlingScoreCalculator.java ADD void testScoreOfSingleGameWithSpare()/2 METHOD
+RefactoringAction 1444904126761 TestBowlingScoreCalculator.java RENAME testScoreOfSingleGameWithSpare()/2=>void testScoreOfSingleGameWithStrikeAndSpare() METHOD
+EditAction 1444904150498 TestBowlingScoreCalculator.java 2892 10 65 5

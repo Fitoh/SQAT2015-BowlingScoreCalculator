@@ -201,3 +201,8 @@ RefactoringAction 1444903548553 TestBowlingScoreCalculator.java ADD void testSco
 RefactoringAction 1444903552576 TestBowlingScoreCalculator.java RENAME testScoreOfSingleGameWithStrike()/2=>void testScoreOfSingleGameWithSpare() METHOD
 EditAction 1444903568276 TestBowlingScoreCalculator.java 2354 8 52 4
 EditAction 1444903585657 Frame.java 925 6 10 0
+RefactoringAction 1444903887279 Frame.java ADD int score()/2 METHOD
+RefactoringAction 1444903907795 Frame.java RENAME score()/2=>int firstT() METHOD
+RefactoringAction 1444903909810 Frame.java RENAME firstT()=>int firstThrow() METHOD
+RefactoringAction 1444903911323 Frame.java RENAME firstThrow()=>int firstThrowScore() METHOD
+EditAction 1444903934850 BowlingGame.java 984 5 4 0

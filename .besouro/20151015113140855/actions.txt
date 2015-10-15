@@ -119,3 +119,5 @@ UnitTestCaseAction 1444900845257 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444900845257 TestBowlingScoreCalculator OK
 RefactoringAction 1444900863813 BowlingGame.java REMOVE printFrames() METHOD
 EditAction 1444900865320 BowlingGame.java 583 5 3 0
+CompilationAction 1444900865580 TestBowlingScoreCalculator.java
+EditAction 1444900866383 TestBowlingScoreCalculator.java 1254 4 24 1

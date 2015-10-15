@@ -41,3 +41,11 @@ CompilationAction 1444899228688 TestBowlingScoreCalculator.java
 CompilationAction 1444899228688 TestBowlingScoreCalculator.java
 CompilationAction 1444899228847 TestBowlingScoreCalculator.java
 EditAction 1444899260462 TestBowlingScoreCalculator.java 300 1 0 0
+CompilationAction 1444899260713 TestBowlingScoreCalculator.java
+RefactoringAction 1444899314212 TestBowlingScoreCalculator.java ADD void frame1/2 FIELD
+RefactoringAction 1444899317726 TestBowlingScoreCalculator.java RENAME frame1/2=>void createFrame FIELD
+RefactoringAction 1444899319241 TestBowlingScoreCalculator.java RENAME createFrame=>void createFrame() METHOD
+UnitTestCaseAction 1444899354743 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444899354744 TestBowlingScoreCalculator OK
+RefactoringAction 1444899404334 TestBowlingScoreCalculator.java RENAME test()=>void testScore() METHOD
+EditAction 1444899452789 TestBowlingScoreCalculator.java 349 2 2 1

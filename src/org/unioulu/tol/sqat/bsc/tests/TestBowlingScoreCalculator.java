@@ -8,11 +8,14 @@ import org.unioulu.tol.sqat.bsc.*;
 public class TestBowlingScoreCalculator {
 
 	Frame frame1;
+	
+	public void createFrame(){
 	frame1 = new Frame(2,4);
+	}
 	
 	@Test
-	public void test() {
-	//	assertEquals("",.());
+	public void testScore() {
+		assertEquals(8,frame1.score());
 	}
 
 }

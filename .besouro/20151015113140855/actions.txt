@@ -1,0 +1,11 @@
+FileOpenedAction 1444897901189 BowlingGame.java 584 5 2 0
+RefactoringAction 1444898595078 TestBowlingScoreCalculator.java ADD Frame frame1 FIELD
+RefactoringAction 1444898638910 TestBowlingScoreCalculator.java ADD import se IMPORT
+RefactoringAction 1444898640926 TestBowlingScoreCalculator.java REMOVE import se IMPORT
+RefactoringAction 1444898658961 TestBowlingScoreCalculator.java ADD import fra IMPORT
+RefactoringAction 1444898659978 TestBowlingScoreCalculator.java REMOVE import fra IMPORT
+RefactoringAction 1444898663997 TestBowlingScoreCalculator.java ADD import Frame.java IMPORT
+RefactoringAction 1444898700056 TestBowlingScoreCalculator.java RENAME import Frame.java=>import org.Frame.java IMPORT
+RefactoringAction 1444898701073 TestBowlingScoreCalculator.java RENAME import org.Frame.java=>import org.uFrame.java IMPORT
+RefactoringAction 1444898707092 TestBowlingScoreCalculator.java RENAME import org.uFrame.java=>import org.unioulu.tol.sqat.bsc.* IMPORT
+EditAction 1444898716138 TestBowlingScoreCalculator.java 277 1 0 0

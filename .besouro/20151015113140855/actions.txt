@@ -138,3 +138,16 @@ EditAction 1444900984671 BowlingGame.java 583 5 3 0
 CompilationAction 1444900984928 TestBowlingScoreCalculator.java
 CompilationAction 1444901002681 TestBowlingScoreCalculator.java
 EditAction 1444901072897 TestBowlingScoreCalculator.java 1303 4 26 2
+RefactoringAction 1444901130035 BowlingGame.java ADD int totalScore FIELD
+RefactoringAction 1444901784416 BowlingGame.java RENAME score()=>int score(int) METHOD
+RefactoringAction 1444901852955 BowlingGame.java RENAME score(int)=>int score() METHOD
+RefactoringAction 1444901965594 BowlingGame.java ADD int s FIELD
+RefactoringAction 1444901967108 BowlingGame.java RENAME s=>int score FIELD
+RefactoringAction 1444901974622 BowlingGame.java REMOVE score FIELD
+RefactoringAction 1444901981649 BowlingGame.java ADD int frame FIELD
+RefactoringAction 1444901983165 BowlingGame.java RENAME frame=>int frameScore FIELD
+RefactoringAction 1444902177570 BowlingGame.java ADD int frameScore/2 FIELD
+RefactoringAction 1444902188609 BowlingGame.java RENAME frameScore/2=>String totalScoreS FIELD
+RefactoringAction 1444902190624 BowlingGame.java RENAME totalScoreS=>String totalScoreString FIELD
+RefactoringAction 1444902194139 BowlingGame.java REMOVE frameScore FIELD
+EditAction 1444902237391 BowlingGame.java 712 5 4 0

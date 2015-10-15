@@ -13,6 +13,9 @@ public class BowlingGame {
 	public void addFrame(Frame frame){
 		frames.add(frame);
 	}
+	public void printFrames(){
+		System.out.println("score: " + frames);
+	}
 	
 	public void setBonus(int firstThrow, int secondThrow) {
 		//to be implemented

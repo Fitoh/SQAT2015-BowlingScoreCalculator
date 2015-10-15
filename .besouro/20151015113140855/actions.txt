@@ -121,3 +121,10 @@ RefactoringAction 1444900863813 BowlingGame.java REMOVE printFrames() METHOD
 EditAction 1444900865320 BowlingGame.java 583 5 3 0
 CompilationAction 1444900865580 TestBowlingScoreCalculator.java
 EditAction 1444900866383 TestBowlingScoreCalculator.java 1254 4 24 1
+RefactoringAction 1444900878527 TestBowlingScoreCalculator.java RENAME testDefineGame()=>void testDefineGa() METHOD
+RefactoringAction 1444900884549 TestBowlingScoreCalculator.java RENAME testScore()=>void testScoreOf() METHOD
+RefactoringAction 1444900888068 TestBowlingScoreCalculator.java RENAME testScoreOf()=>void testScoreOfSingleFrame() METHOD
+RefactoringAction 1444900903090 TestBowlingScoreCalculator.java RENAME testDefineGa()=>void testScoreOf() METHOD
+RefactoringAction 1444900907610 TestBowlingScoreCalculator.java RENAME testScoreOf()=>void testScoreOfSingleGame() METHOD
+RefactoringAction 1444900933353 BowlingGame.java ADD void printFrames() METHOD
+EditAction 1444900950102 BowlingGame.java 659 6 4 0

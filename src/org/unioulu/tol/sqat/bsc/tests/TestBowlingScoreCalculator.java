@@ -57,11 +57,11 @@ public class TestBowlingScoreCalculator {
 	
 	public void testScoreOfSingleGame() {
 		// act
+		createFrames();
 		createGame();
 		
 		// assert
-		game1.printFrames();
-		//assertEquals(9,());
+		assertEquals(81,game1.score());
 	}
 	
 

@@ -83,8 +83,8 @@ public class TestBowlingScoreCalculator {
 		createFramesWithStrike();
 		createGame();
 		
-		// assert should be 81
-		assertEquals(80,game1.score());
+		// assert should be 94
+		assertEquals(95,game1.score());
 	}
 	
 

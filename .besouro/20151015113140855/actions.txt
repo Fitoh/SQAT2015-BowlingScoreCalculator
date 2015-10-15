@@ -181,3 +181,4 @@ RefactoringAction 1444903149161 TestBowlingScoreCalculator.java RENAME createFra
 RefactoringAction 1444903179732 TestBowlingScoreCalculator.java ADD void testScoreOfSingleGame()/2 METHOD
 RefactoringAction 1444903191779 TestBowlingScoreCalculator.java RENAME testScoreOfSingleGame()/2=>void testScoreOfSingleGameWithStrike() METHOD
 EditAction 1444903208280 TestBowlingScoreCalculator.java 1846 6 39 3
+EditAction 1444903233714 TestBowlingScoreCalculator.java 1846 6 39 3

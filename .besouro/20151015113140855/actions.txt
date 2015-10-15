@@ -101,3 +101,4 @@ RefactoringAction 1444900074401 TestBowlingScoreCalculator.java ADD Frame frame8
 RefactoringAction 1444900075420 TestBowlingScoreCalculator.java RENAME frame1/3=>Frame frame9 FIELD
 RefactoringAction 1444900076440 TestBowlingScoreCalculator.java RENAME frame1/2=>Frame frame10 FIELD
 EditAction 1444900176800 TestBowlingScoreCalculator.java 1263 4 24 1
+EditAction 1444900435199 BowlingGame.java 583 5 3 0

@@ -20,16 +20,16 @@ public class TestBowlingScoreCalculator {
 	BowlingGame game1;
 	
 	public void createFrames(){
-	frame1 = new Frame(1,5);
-	frame2 = new Frame(3,6);
-	frame3 = new Frame(7,2);
-	frame4 = new Frame(3,6);
-	frame5 = new Frame(4,4);
-	frame6 = new Frame(5,3);
-	frame7 = new Frame(3,3);
-	frame8 = new Frame(4,5);
-	frame9 = new Frame(8,1);
-	frame10 = new Frame(2,6);
+		frame1 = new Frame(1,5);
+		frame2 = new Frame(3,6);
+		frame3 = new Frame(7,2);
+		frame4 = new Frame(3,6);
+		frame5 = new Frame(4,4);
+		frame6 = new Frame(5,3);
+		frame7 = new Frame(3,3);
+		frame8 = new Frame(4,5);
+		frame9 = new Frame(8,1);
+		frame10 = new Frame(2,6);
 	}
 	
 	public void createGame(){

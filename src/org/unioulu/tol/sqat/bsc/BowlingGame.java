@@ -12,6 +12,8 @@ public class BowlingGame {
 	
 	public void addFrame(Frame frame){
 		frames.add(frame);
+	}
+	public void printFrames(){
 		System.out.println(frames);
 	}
 	

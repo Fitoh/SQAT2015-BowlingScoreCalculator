@@ -106,3 +106,11 @@ RefactoringAction 1444900586733 TestBowlingScoreCalculator.java ADD void testDef
 RefactoringAction 1444900593775 TestBowlingScoreCalculator.java REMOVE testDefineGame()/2 METHOD
 EditAction 1444900669974 BowlingGame.java 614 5 4 0
 EditAction 1444900674007 TestBowlingScoreCalculator.java 1254 4 24 1
+UnitTestCaseAction 1444900674363 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444900674364 TestBowlingScoreCalculator OK
+UnitTestCaseAction 1444900723772 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444900723773 TestBowlingScoreCalculator OK
+RefactoringAction 1444900749094 BowlingGame.java ADD void print FIELD
+RefactoringAction 1444900752605 BowlingGame.java RENAME print=>void printFrames FIELD
+RefactoringAction 1444900756120 BowlingGame.java RENAME printFrames=>void printFrames() METHOD
+EditAction 1444900780622 BowlingGame.java 647 6 4 0

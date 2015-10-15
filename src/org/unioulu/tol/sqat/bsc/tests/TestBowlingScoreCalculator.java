@@ -60,6 +60,7 @@ public class TestBowlingScoreCalculator {
 		createGame();
 		
 		// assert
+		game1.printFrames();
 		//assertEquals(9,());
 	}
 	

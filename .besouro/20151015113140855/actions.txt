@@ -114,3 +114,4 @@ RefactoringAction 1444900749094 BowlingGame.java ADD void print FIELD
 RefactoringAction 1444900752605 BowlingGame.java RENAME print=>void printFrames FIELD
 RefactoringAction 1444900756120 BowlingGame.java RENAME printFrames=>void printFrames() METHOD
 EditAction 1444900780622 BowlingGame.java 647 6 4 0
+EditAction 1444900843111 TestBowlingScoreCalculator.java 1278 4 25 1

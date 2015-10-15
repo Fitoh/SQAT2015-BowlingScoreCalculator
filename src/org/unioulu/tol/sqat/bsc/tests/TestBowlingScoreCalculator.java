@@ -31,6 +31,7 @@ public class TestBowlingScoreCalculator {
 		frame9 = new Frame(8,1);
 		frame10 = new Frame(2,6);
 	}
+	
 	public void createFramesWithStrike(){
 		frame1 = new Frame(10,0);
 		frame2 = new Frame(3,6);
@@ -43,6 +44,7 @@ public class TestBowlingScoreCalculator {
 		frame9 = new Frame(8,1);
 		frame10 = new Frame(2,6);
 	}
+	
 	public void createFramesWithSpare(){
 		frame1 = new Frame(1,9);
 		frame2 = new Frame(3,6);
@@ -55,9 +57,23 @@ public class TestBowlingScoreCalculator {
 		frame9 = new Frame(8,1);
 		frame10 = new Frame(2,6);
 	}
+	
 	public void createFramesWithStrikeAndSpare(){
 		frame1 = new Frame(10,0);
 		frame2 = new Frame(4,6);
+		frame3 = new Frame(7,2);
+		frame4 = new Frame(3,6);
+		frame5 = new Frame(4,4);
+		frame6 = new Frame(5,3);
+		frame7 = new Frame(3,3);
+		frame8 = new Frame(4,5);
+		frame9 = new Frame(8,1);
+		frame10 = new Frame(2,6);
+	}
+	
+	public void createFramesWithMultipleStrikes(){
+		frame1 = new Frame(10,0);
+		frame2 = new Frame(10,0);
 		frame3 = new Frame(7,2);
 		frame4 = new Frame(3,6);
 		frame5 = new Frame(4,4);
@@ -131,5 +147,14 @@ public class TestBowlingScoreCalculator {
 		assertEquals(102,game1.score());
 	}
 	
+	@Test
+	public void testScoreOfSingleGameWithMultipleStrikes() {
+		// act
+		createFramesWithMultipleStrikes();
+		createGame();
+		
+		// assert should be 112
+		assertEquals(113,game1.score());
+	}
 
 }

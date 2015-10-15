@@ -10,7 +10,7 @@ public class TestBowlingScoreCalculator {
 	Frame frame1;
 	
 	public void createFrame(){
-	frame1 = new Frame(2,4);
+	frame1 = new Frame(2,6);
 	}
 	
 	@Test

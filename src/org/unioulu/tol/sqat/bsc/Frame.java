@@ -16,7 +16,7 @@ public class Frame {
 		return score;
 	}
 	
-	//the score of a single frame
+	//the score of a single frame first throw
 	public int firstThrowScore(){
 		return firstThrow;
 	}

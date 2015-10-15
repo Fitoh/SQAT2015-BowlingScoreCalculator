@@ -208,3 +208,4 @@ RefactoringAction 1444903911323 Frame.java RENAME firstThrow()=>int firstThrowSc
 EditAction 1444903934850 BowlingGame.java 984 5 4 0
 CompilationAction 1444903935096 BowlingGame.java
 EditAction 1444903940899 Frame.java 1018 7 11 0
+EditAction 1444903964168 Frame.java 1030 7 11 0

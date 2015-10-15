@@ -1,8 +1,8 @@
 package org.unioulu.tol.sqat.bsc;
 
 public class Frame {
-	private int firstThrow;
-	private int secondThrow;
+	private int firstThrow = 0;
+	private int secondThrow = 0;
 	private int score;
 	
 	public Frame(int firstThrow, int secondThrow){

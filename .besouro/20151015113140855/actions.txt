@@ -164,3 +164,8 @@ RefactoringAction 1444902347796 BowlingGame.java REMOVE totalScoreString FIELD
 UnitTestCaseAction 1444902377343 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444902377344 TestBowlingScoreCalculator FAIL
 EditAction 1444902490771 BowlingGame.java 761 5 4 0
+UnitTestCaseAction 1444902494571 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444902494572 TestBowlingScoreCalculator OK
+UnitTestCaseAction 1444902500675 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444902500675 TestBowlingScoreCalculator OK
+EditAction 1444902515405 TestBowlingScoreCalculator.java 1311 4 26 2

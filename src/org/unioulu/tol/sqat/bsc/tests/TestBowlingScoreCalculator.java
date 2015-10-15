@@ -55,6 +55,7 @@ public class TestBowlingScoreCalculator {
 		assertEquals(6,frame1.score());
 	}
 	
+	@Test
 	public void testScoreOfSingleGame() {
 		// act
 		createFrames();

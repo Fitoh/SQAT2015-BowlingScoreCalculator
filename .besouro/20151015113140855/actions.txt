@@ -151,3 +151,6 @@ RefactoringAction 1444902188609 BowlingGame.java RENAME frameScore/2=>String tot
 RefactoringAction 1444902190624 BowlingGame.java RENAME totalScoreS=>String totalScoreString FIELD
 RefactoringAction 1444902194139 BowlingGame.java REMOVE frameScore FIELD
 EditAction 1444902237391 BowlingGame.java 712 5 4 0
+UnitTestCaseAction 1444902247199 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444902247199 TestBowlingScoreCalculator OK
+EditAction 1444902256160 TestBowlingScoreCalculator.java 1311 4 26 2

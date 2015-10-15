@@ -47,7 +47,7 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void testScore() {
+	public void testScoreOfSingleFrame() {
 		// act
 		createFrames();
 		
@@ -55,11 +55,12 @@ public class TestBowlingScoreCalculator {
 		assertEquals(6,frame1.score());
 	}
 	
-	public void testDefineGame() {
+	public void testScoreOfSingleGame() {
 		// act
 		createGame();
 		
 		// assert
+		game1.printFrames();
 		//assertEquals(9,());
 	}
 	

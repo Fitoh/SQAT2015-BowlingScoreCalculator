@@ -10,7 +10,7 @@ public class TestBowlingScoreCalculator {
 	Frame frame1;
 	
 	public void createFrame(){
-	frame1 = new Frame(2,6);
+	frame1 = new Frame(0,9);
 	}
 	
 	@Test
@@ -19,7 +19,7 @@ public class TestBowlingScoreCalculator {
 		createFrame();
 		
 		// assert
-		assertEquals(6,frame1.score());
+		assertEquals(9,frame1.score());
 	}
 
 }
